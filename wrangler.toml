@@ -1,4 +1,4 @@
-name = "galaxy-botvpn"
+name = "galaxybotvpn"
 main = "_worker.js"
 compatibility_date = "2024-09-23"
 compatibility_flags = [ "nodejs_compat" ]
@@ -6,7 +6,7 @@ compatibility_flags = [ "nodejs_compat" ]
 keep_vars = true
 
 [vars]
-TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"
-GEMINI_API_KEY = "YOUR_GEMINI_API_KEY"
+TELEGRAM_BOT_TOKEN = "8831876141:AAEzcrFMf1M3S8bmO3SoXER7js4G6UAvLHg"
+#GEMINI_API_KEY = ""
 SERVERS_SOURCE_URL = "https://raw.githubusercontent.com/proxzero/galaxy-subdomain/main/servers.txt"
-WEBSITE_URL = "https://vpn.yourdomain.com"
+WEBSITE_URL = "https://vpn.galaxy-tunnel.top"
