@@ -1,0 +1,12 @@
+name = "galaxy-botvpn"
+main = "_worker.js"
+compatibility_date = "2024-09-23"
+compatibility_flags = [ "nodejs_compat" ]
+
+keep_vars = true
+
+[vars]
+TELEGRAM_BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN"; // <--- မိမိ Bot Token ထည့်ပါ
+GEMINI_API_KEY = "YOUR_GEMINI_API_KEY";         // <--- Google AI Studio Gemini API Key ထည့်ပါ (အခမဲ့ရသည်)
+SERVERS_SOURCE_URL = "https://raw.githubusercontent.com/proxzero/galaxy-subdomain/main/servers.txt";
+WEBSITE_URL = "https://vpn.yourdomain.com";    // <--- မိမိ Website URL ထည့်ပါ
